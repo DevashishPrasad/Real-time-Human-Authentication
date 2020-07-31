@@ -1,1 +1,1 @@
-# This folder contains benchmarking results for facial landmarks
+# This folder contains benchmarking results for facial landmark techniques
