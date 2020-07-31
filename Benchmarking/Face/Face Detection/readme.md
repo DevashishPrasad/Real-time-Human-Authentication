@@ -1,1 +1,1 @@
-## This folder contains benchmarking results for face detection
+## This folder contains benchmarking results for face detection methods
