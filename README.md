@@ -7,3 +7,5 @@ DRDO problem statement : CK107
 3. [Mentoring Round 2](https://docs.google.com/presentation/d/1rV70mG8RfgZws-FTiIC4uYaszToLbrYtrcF6n0VUKJA/edit?usp=sharing)
 
 Note: Due to the upload size limit of github, the models will be uploaded to drive soon and links will be provided here
+
+![ARCHITECTURE](https://github.com/DevashishPrasad/CK107_The_Eminents/blob/master/Backend/arch.png)
