@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Employee Details</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" type="text/css" href="w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <style type="text/css">
+  	.leftcolumn {
+  height: 100vh;
+  width: 30%;
+  float: left;
+  overflow: scroll;
+	}
+.rightcolumn {
+  height: 100vh;
+  width: 70%;
+  float: right;
+  overflow: scroll;
+	}
+  .column {
+      float: left;
+      width: 100%;
+      padding: 0 10px;
+      }
+      /* Remove extra left and right margins, due to padding */
+ 
+.top_row{
+	height: 15%;
+	width: 100%;
+	float: left;
+	
+} 
+
+.middle_row{
+	height: 30%;
+	width: 100%;
+	float: left;
+	
+} 
+
+.bottom_row{
+	height: 60%;
+	width: 100%;
+	float: left;
+} 
+
+  .row {margin: 0 -5px;}
+  /* Clear floats after the columns */
+  .row:after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+  form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 60%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+  </style>
+</head>
+<body>
+<div class="leftcolumn">
+
+	<div style="margin:20px;" class="row">
+		<form class="example"  action="action_page.php">
+		  <input type="text" placeholder="Search.." name="search">
+		  <button type="submit"><i class="fa fa-search"></i></button>
+		  <button style="background: #339933;"type="submit"><i class="fa fa-camera"></i></button>
+		</form>
+	</div>
+
+	 <div style="margin:10px;" class="row">
+	         <div class="column">
+	            <div class="w3-container">
+	               <div class="w3-card-4" style="width:100%">
+	                  <header class="w3-container w3-light-grey">
+	                     <h3>Ayan Gadpal</h3>
+	                  </header>
+	                  <div class="w3-container">
+	                     <hr>
+	                     <img src="avtar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+	                     <p><b>Position</b>: Participant</p><br>
+	                     <br>
+	                  </div>
+	                  <br>
+	                  <button class="w3-button w3-block w3-dark-grey">View Detail</button>
+	               </div>
+	            </div>
+	         </div>
+	</div>
+	 <div style="margin:10px;" class="row">
+	         <div class="column">
+	            <div class="w3-container">
+	               <div class="w3-card-4" style="width:100%">
+	                  <header class="w3-container w3-light-grey">
+	                     <h3>Ayan Gadpal</h3>
+	                  </header>
+	                  <div class="w3-container">
+	                     <hr>
+	                     <img src="avtar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+	                     <p><b>Position</b>: Participant</p><br>
+	                     <br>
+	                  </div>
+	                  <br>
+	                  <button class="w3-button w3-block w3-dark-grey">View Detail</button>
+	               </div>
+	            </div>
+	         </div>
+	</div>
+	 <div style="margin:10px;" class="row">
+	         <div class="column">
+	            <div class="w3-container">
+	               <div class="w3-card-4" style="width:100%">
+	                  <header class="w3-container w3-light-grey">
+	                     <h3>Ayan Gadpal</h3>
+	                  </header>
+	                  <div class="w3-container">
+	                     <hr>
+	                     <img src="avtar.png" alt="Avatar" class="w3-left w3-circle w3-margin-right" style="width:60px">
+	                     <p><b>Position</b>: Participant</p><br>
+	                     <br>
+	                  </div>
+	                  <br>
+	                  <button class="w3-button w3-block w3-dark-grey">View Detail</button>
+	               </div>
+	            </div>
+	         </div>
+	</div>
+</div>
+<div class="rightcolumn">
+	<div class="top_row">
+		<h1 style="margin: 20px 0px 0px 30px; float: left;">Ayan Gadpal</h1>
+		<button class="w3-btn w3-teal" style="  background-color:#E74C3C; margin: 35px 30px 0px 00px;  float:right" >EDIT</button>
+	</div>
+	<div class="middle_row">
+		<h2 style="margin: 20px 0px 0px 30px; float: left;" >Details</h2>
+		<div class="w3-container">
+			
+ 
+  <div class="w3-show-inline-block">
+  <div class="w3-bar">
+    <button class="w3-btn w3-teal" style="margin-left: 70px; margin-top: 10px;">Remove</button>
+    <button class="w3-btn w3-teal" style="margin-left: 70px; margin-top: 10px;">Register</button>
+    <button class="w3-btn w3-teal" style="margin-left: 70px; margin-top: 10px;">Re-Register</button>
+  </div>
+  </div>
+
+</div>
+	</div>
+	<div class="bottom_row" style="border: double;">
+	 <h2 style="margin: 20px 0px 0px 30px; float: left; " >Logs</h2>
+                	
+	</div>
+
+</div>
+
+
+</body>
+</html>
