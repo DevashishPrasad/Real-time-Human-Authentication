@@ -1,0 +1,98 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+   <head>
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <style  type="text/css">
+            div.example {
+                overflow: auto;
+                }
+
+      </style>
+       <script src="{% static 'jQuery.js' %}">
+           
+           
+           </script>
+            <script>
+                function fetchdata(){
+                    $.ajax({
+                    url: '',
+                    type: 'get',
+                    success: function(response){
+                    // Perform operation on the return value
+                    //alert(response.index);
+                    //$("#image").innerHTML(response.index);
+                    $('#image_face').attr("src", "data:image/jpg;base64,"+response.face)
+                    $('#image_head').attr("src", "data:image/jpg;base64,"+response.head)
+                    $('#image_gait').attr("src", "data:image/jpg;base64,"+response.gait)
+                    
+                    //console.log(response.index);
+                    }
+                    });
+                }
+
+                $(document).ready(function(){
+                    setInterval(fetchdata,0);
+                }); 
+            </script>
+   </head>
+   <body>
+      <!--Video Feed on Left-->
+      <div style =" height:742px; width:40%; float:left; " >
+         <div style =" height:230px;  background-color: white ">
+            <div style =" height:200px; float:left; " >
+               <img id='image_face'  style =" height:250px; width:350px;" src="">
+            </div>
+         </div>
+         <br>
+         <div style =" height:230px;  background-color: white ">
+            <div style =" height:200px; float:left; " >
+               <img id='image_head'  style =" height:250px; width:350px" src="">
+            </div>
+         </div>
+         <br>
+         <div style =" height:230px;  background-color: white ">
+            <div style =" height:200px; float:left; " >
+               <img id='image_gait'  style =" height:250px; width:350px" src="">
+            </div>
+         </div>
+         <br>
+      </div>
+      <!--All Right Section-->
+      <div style = " height:100%; width: 50%; float:left; " >
+         <!--Part 1 of Emp data & Video Feed-->
+         <div style = " height:500px; width: 100%; float:left;" >
+           
+            
+               <!--Emp Data-->
+               <div class="example" style =" height:500px; width: 70%; float:left;" >
+               {% block content%}
+               {% endblock %}
+               <!-- End of emp data -->
+                </div>
+            
+            <!--Video Feed-->
+            <div style = " height:500px; width: 30%; float:left; " >
+               <!--Video 1-->
+               <div style =" height:230px;  background-color: white ">
+                  <div style =" height:200px; width: 100%; float:right; " >
+                     <img id='image_face'  style =" height:250px; width:100%;" src="">
+                  </div>
+               </div>
+               <br>
+               <!--Video 2-->
+               <div style =" height:230px;  background-color: white ">
+                  <div style =" height:200px; width: 100%; float:right; " >
+                     <img id='image_head'  style =" height:250px; width:100%;" src="">
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--LOGS-->
+         <div style = " height:245px; width: 100%; float:left; border: double; " >
+            <h1>LOGS</h1>
+         </div>
+      </div>
+   </body>
+</html>

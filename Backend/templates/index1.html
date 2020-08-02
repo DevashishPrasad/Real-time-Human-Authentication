@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div style="margin-left: 80px; " class="w3-container">
+        {% for img in images %}
+       
+            <div class="w3-card-4" style="width:70%; margin-top:20px; padding-bottom:20px;">
+            <div class="w3-container" style="padding-top:20px;">
+                <img src="data:image/png;base64,{{ img | safe }}" alt="Avatar" class="w3-left  w3-margin-right" style="width:60px">
+                <button class="button" style=" color: white; border-color:#82E0AA;  background-color:#2ECC71; padding: 10px 30px 10px 30px; margin-top: 10px; margin-left: 30px;"   >ALLOW</button>
+                <button class="button" style=" color: white; border-color:#F1948A;  background-color:#E74C3C; padding: 10px 30px 10px 30px; margin-left: 50px; margin-top: 10px" >REJECT</button>
+                <br>
+            </div>%
+            <br>
+            <form action="#" method="POST">
+                {% csrf_token %}
+                <input  id="" type="text" name="name" placeholder="Name" style="margin-left:10px; padding-right:90px;">
+                <button name="register_button" class="button" style="margin-left:5px; padding: 4px 20px 4px 20px; background-color:#ABB2B9; " >Register</button>
+            </form>
+            </div>
+           
+        {% endfor %}  
+    </div> 
+{% endblock %}
+
+<!-- <img  alt="Avatar" class="w3-left  w3-margin-right" style="width:60px; height:60px"> -->

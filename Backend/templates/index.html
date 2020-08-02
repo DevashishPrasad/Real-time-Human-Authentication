@@ -1,0 +1,37 @@
+ {% load static %}
+ <html>
+       <head>
+           <title>Video Streaming Demonstration</title>
+           <h1>test</h1>
+           <script src="{% static 'jQuery.js' %}">
+           
+           
+           </script>
+            <script>
+                function fetchdata(){
+                    $.ajax({
+                    url: '',
+                    type: 'get',
+                    success: function(response){
+                    // Perform operation on the return value
+                    //alert(response.index);
+                    //$("#image").innerHTML(response.index);
+                    $('#image').attr("src", "data:image/jpg;base64,"+response.index)
+                    
+                    //console.log(response.index);
+                    }
+                    });
+                }
+
+                $(document).ready(function(){
+                    setInterval(fetchdata,1);
+                }); 
+            </script>
+       </head>
+       <body>
+       		
+          <h1>{{name}}</h1>
+           <!-- <h1>Video Streaming Demonstration</h1> -->
+           <img src="" id="image" width="500" height="500"> 
+       </body>
+</html> 
