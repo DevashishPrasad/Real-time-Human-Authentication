@@ -10,3 +10,13 @@ DRDO problem statement : CK107
 Note: Due to the upload size limit of github, the models will be uploaded to drive soon and links will be provided here
 
 ![ARCHITECTURE](https://github.com/DevashishPrasad/CK107_The_Eminents/blob/master/Backend/arch.png)
+
+## Working System Videos:
+1. [Main system with dashboard : Check from 0:48 timestamp](https://drive.google.com/file/d/1CKFuuNxYoGvLC774Imi57ELnhj1nglB3/view?usp=sharing)
+2. [Anti Piggy Backing using head detection](https://drive.google.com/file/d/15xvO4DSC-QX-io-buIkuqxhP9Q_Ft7PZ/view?usp=sharing)
+3. [Robust Face Recognition : Multiple light conditions](https://drive.google.com/file/d/1SJ0D9UGm2fpM1qwKUofipUv16SzYIiOL/view?usp=sharing)
+4. [Robust Face Detection : Crowd recognition](https://drive.google.com/file/d/14DY8iUeHbCisbWC4SSSmVy-8hQlVEifL/view?usp=sharing)
+5. [Automated Video saving for future retrieval](https://drive.google.com/file/d/1bsWyBIdbzf_2wNUIp99aAHzMdOdPYw5O/view?usp=sharing)
+
+## Face Recognition, Detetcion and Landmarking Library
+[facelib](https://drive.google.com/file/d/1CKFuuNxYoGvLC774Imi57ELnhj1nglB3/view?usp=sharing)
