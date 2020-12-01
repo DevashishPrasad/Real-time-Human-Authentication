@@ -18,8 +18,8 @@ DRDO problem statement : CK107
 4. [Robust Face Detection : Crowd recognition](https://drive.google.com/file/d/14DY8iUeHbCisbWC4SSSmVy-8hQlVEifL/view?usp=sharing)
 5. [Automated Video saving for future retrieval](https://drive.google.com/file/d/1bsWyBIdbzf_2wNUIp99aAHzMdOdPYw5O/view?usp=sharing)
 
-## Face Recognition, Detetcion and Landmarking Library
-[facelib](https://drive.google.com/file/d/1CKFuuNxYoGvLC774Imi57ELnhj1nglB3/view?usp=sharing)
+## Python Library for Face Recognition, Detection and Landmarking
+[Face_Lib](https://drive.google.com/file/d/1CKFuuNxYoGvLC774Imi57ELnhj1nglB3/view?usp=sharing)
 
 ## Whole code for project along with deep learning models
 [Final Code and Models](https://drive.google.com/drive/folders/1ukNVQ5f7EsX5qW3MtixvZ5QkPxVEvX9z?usp=sharing)
