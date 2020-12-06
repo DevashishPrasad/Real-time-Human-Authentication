@@ -19,7 +19,7 @@ DRDO problem statement : CK107
 5. [Automated Video saving for future retrieval](https://drive.google.com/file/d/1bsWyBIdbzf_2wNUIp99aAHzMdOdPYw5O/view?usp=sharing)
 
 ## Python Library for Face Recognition, Detection and Landmarking
-[Face_Lib](https://drive.google.com/file/d/1CKFuuNxYoGvLC774Imi57ELnhj1nglB3/view?usp=sharing)
+[Face_Lib](https://drive.google.com/drive/folders/1V7zETGhoggZgcrXv39X5xv1Ed3N2Zg9K?usp=sharing)
 
 ## Whole code for project along with deep learning models
 [Final Code and Models](https://drive.google.com/drive/folders/1ukNVQ5f7EsX5qW3MtixvZ5QkPxVEvX9z?usp=sharing)
