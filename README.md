@@ -1,7 +1,7 @@
 # The_Eminents_SIH20
 <img src="https://upload.wikimedia.org/wikipedia/en/6/68/Defence_Research_and_Development_Organisation_Logo.png" height=200 width=200>
 
-DRDO problem statement (CK107) : Video based dynamic human authentication system for accesscontrol
+DRDO problem statement (CK107) : Video based dynamic human authentication system for access control
 
 ## Presentations:
 1. [Mentoring Round 1](https://docs.google.com/presentation/d/1JpAM2P1-tQsl0CLRXI1motFGd-Of0Le9biGocfPqXtI/edit?usp=sharing)
