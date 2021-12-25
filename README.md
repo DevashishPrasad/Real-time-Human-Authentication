@@ -14,6 +14,9 @@ Multiple camera based dynamic human authentication for a gate. Our solution invo
 4. [Robust Face Detection : Crowd recognition](https://drive.google.com/file/d/14DY8iUeHbCisbWC4SSSmVy-8hQlVEifL/view?usp=sharing)
 5. [Automated Video saving for future retrieval](https://drive.google.com/file/d/1bsWyBIdbzf_2wNUIp99aAHzMdOdPYw5O/view?usp=sharing)
 
+## Benchmarking
+We produced robust benchmaring of various state-of-the-art models. Check out the benchmarking folder for details.
+
 ## Presentations:
 1. [Mentoring Round 1](https://docs.google.com/presentation/d/1JpAM2P1-tQsl0CLRXI1motFGd-Of0Le9biGocfPqXtI/edit?usp=sharing)
 2. [Evaluation 1](https://docs.google.com/presentation/d/1pEVlwwu2-JOlWprnSV_JK0gIXVsVW0xo8oqTwxj058Q/edit?usp=sharing)
